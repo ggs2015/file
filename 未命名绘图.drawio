@@ -85,7 +85,7 @@
           <mxGeometry height="80" width="260" x="555" y="990" as="geometry" />
         </mxCell>
         <mxCell id="UfUiGCJygnWf0iFvSy39-13" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" value="能通过程序改变的只有：字节码生成和类加载器" vertex="1">
-          <mxGeometry height="80" width="310" x="1030" y="610" as="geometry" />
+          <mxGeometry height="80" width="310" x="940" y="660" as="geometry" />
         </mxCell>
         <mxCell id="UfUiGCJygnWf0iFvSy39-17" edge="1" parent="1" source="UfUiGCJygnWf0iFvSy39-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="UfUiGCJygnWf0iFvSy39-16" value="">
           <mxGeometry relative="1" as="geometry" />
