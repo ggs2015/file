@@ -4,8 +4,11 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="UfUiGCJygnWf0iFvSy39-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" value="破坏双亲委派的几种场景" vertex="1">
+          <mxGeometry height="420" width="410" x="480" y="670" as="geometry" />
+        </mxCell>
         <mxCell id="UfUiGCJygnWf0iFvSy39-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" value="双亲委派" vertex="1">
-          <mxGeometry height="500" width="440" x="387" y="95" as="geometry" />
+          <mxGeometry height="500" width="440" x="399.5" y="95" as="geometry" />
         </mxCell>
         <mxCell id="8njmXwVHh8kMA4B01bRU-3" edge="1" parent="1" source="8njmXwVHh8kMA4B01bRU-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="8njmXwVHh8kMA4B01bRU-2" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -30,6 +33,9 @@
         </mxCell>
         <mxCell id="8njmXwVHh8kMA4B01bRU-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="解析" vertex="1">
           <mxGeometry height="60" width="120" x="220" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="UfUiGCJygnWf0iFvSy39-15" edge="1" parent="1" source="8njmXwVHh8kMA4B01bRU-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="UfUiGCJygnWf0iFvSy39-14" value="">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8njmXwVHh8kMA4B01bRU-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="初始化" vertex="1">
           <mxGeometry height="60" width="120" x="220" y="560" as="geometry" />
@@ -68,6 +74,27 @@
         </mxCell>
         <mxCell id="UfUiGCJygnWf0iFvSy39-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="自定义类加载器&lt;div&gt;Use ClassLoader&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="670" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="UfUiGCJygnWf0iFvSy39-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="1. 重写loadClass()方法，破坏了双亲委派；&lt;div&gt;2. 重写findClass()方法，依然遵循双亲委派；&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="260" x="560" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="UfUiGCJygnWf0iFvSy39-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="ClassPath目录下JNDI接口提供者（SPI），使用线程上下文类加载器Thread Context ClassLoader" vertex="1">
+          <mxGeometry height="90" width="260" x="560" y="850" as="geometry" />
+        </mxCell>
+        <mxCell id="UfUiGCJygnWf0iFvSy39-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="热替换，热部署，如OSGI" vertex="1">
+          <mxGeometry height="80" width="260" x="560" y="990" as="geometry" />
+        </mxCell>
+        <mxCell id="UfUiGCJygnWf0iFvSy39-13" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" value="" vertex="1">
+          <mxGeometry height="160" width="140" x="970" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="UfUiGCJygnWf0iFvSy39-17" edge="1" parent="1" source="UfUiGCJygnWf0iFvSy39-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="UfUiGCJygnWf0iFvSy39-16" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UfUiGCJygnWf0iFvSy39-14" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="使用" vertex="1">
+          <mxGeometry height="60" width="120" x="220" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="UfUiGCJygnWf0iFvSy39-16" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="卸载" vertex="1">
+          <mxGeometry height="60" width="120" x="220" y="770" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
