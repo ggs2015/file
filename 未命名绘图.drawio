@@ -1,13 +1,13 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.5.3">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.5.6">
   <diagram name="第 1 页" id="GKHndDmi5vlL1_VRalfk">
-    <mxGraphModel dx="1051" dy="678" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="610" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="UfUiGCJygnWf0iFvSy39-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" value="破坏双亲委派的几种场景" vertex="1">
+        <mxCell id="UfUiGCJygnWf0iFvSy39-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" value="破坏双亲委派模型的几种场景" vertex="1">
           <mxGeometry height="420" width="410" x="480" y="670" as="geometry" />
         </mxCell>
-        <mxCell id="UfUiGCJygnWf0iFvSy39-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" value="双亲委派" vertex="1">
+        <mxCell id="UfUiGCJygnWf0iFvSy39-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" value="双亲委派模型" vertex="1">
           <mxGeometry height="500" width="440" x="399.5" y="95" as="geometry" />
         </mxCell>
         <mxCell id="8njmXwVHh8kMA4B01bRU-3" edge="1" parent="1" source="8njmXwVHh8kMA4B01bRU-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="8njmXwVHh8kMA4B01bRU-2" value="">
@@ -82,10 +82,10 @@
           <mxGeometry height="90" width="260" x="560" y="850" as="geometry" />
         </mxCell>
         <mxCell id="UfUiGCJygnWf0iFvSy39-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="热替换，热部署，如OSGI" vertex="1">
-          <mxGeometry height="80" width="260" x="560" y="990" as="geometry" />
+          <mxGeometry height="80" width="260" x="555" y="990" as="geometry" />
         </mxCell>
-        <mxCell id="UfUiGCJygnWf0iFvSy39-13" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" value="" vertex="1">
-          <mxGeometry height="160" width="140" x="970" y="550" as="geometry" />
+        <mxCell id="UfUiGCJygnWf0iFvSy39-13" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" value="能通过程序改变的只有：字节码生成和类加载器" vertex="1">
+          <mxGeometry height="80" width="310" x="1030" y="610" as="geometry" />
         </mxCell>
         <mxCell id="UfUiGCJygnWf0iFvSy39-17" edge="1" parent="1" source="UfUiGCJygnWf0iFvSy39-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="UfUiGCJygnWf0iFvSy39-16" value="">
           <mxGeometry relative="1" as="geometry" />
